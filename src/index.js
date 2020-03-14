@@ -1,4 +1,15 @@
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom'
 
-render(<App />, document.getElementById('root'));
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>Hello world!</h1>
+            </div>
+        )
+    }
+}
+
+render(<App/>, document.getElementById('root'));
+
